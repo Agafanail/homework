@@ -260,7 +260,7 @@ background-color: aqua;
 }
 
 .description {
-	padding: 124px 263px 68px 301px;
+	padding: 124px 263px 68px 263px;
 	background-color: #f7f7f7;
 }
 .description_row {
@@ -303,3 +303,225 @@ color: black;
 	display: inline;
 	
 }
+
+.photos_block {
+}
+.photos_block_row {
+	display: flex;
+	height: 100%;
+}
+
+.photos_block_column {
+	flex: 0 1 33.333%;
+}
+
+.photos_wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.photos_wrapper_long{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+}
+
+.photos_wrapper_long img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+
+.photos_wrapper_long{
+	width: 100%;
+}
+
+.photos_block_column img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.two_photos{
+	display: flex;
+}
+
+.two_photos div{
+	width: 100%;
+}
+
+
+.btn_block{
+	display: flex;
+	justify-content: center;
+	min-height: 200px;
+	background-color: #282f35;
+
+	padding-top: 96px;
+}
+
+.btn a{
+	font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "DISCOVER T" */
+font-style: normal;
+letter-spacing: 2.8px;
+line-height: normal;
+	
+	color: white;
+	padding: 21px 59px 19px 59px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn a:hover{
+	color: black;
+	background-color: white;
+}
+
+
+.form_block_row{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 109px;
+	padding-bottom: 111px;
+}
+
+.form_block_logo{
+	margin-bottom: 39px;
+}
+
+.form_block_text{
+	font-size: 24px;
+	font-style: italic;
+	letter-spacing: normal;
+	line-height: 34px;
+
+	margin-bottom: 35px;
+}
+
+input{
+	padding: 28px 228px 24px 28px;
+	border: 1px solid #d3d7d9;
+	margin-right: 8px;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+input::placeholder{
+	font-size: 20px;
+	font-style: italic;
+	letter-spacing: normal;
+	line-height: 24px;
+	color:#d9d9d9;
+}
+
+
+
+button{
+	padding: 27px 45px;
+	background-color: #64c29e;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+button:hover{
+	color:#64c29e;
+	background-color:#282f35;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #f7f7f7;
+	padding: 100px 0px;
+}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.footer_row {
+	display: flex;
+	justify-content:space-between;
+	width: 100%;
+}
+
+@media (max-width:600px) {
+	.footer_row {
+	flex-direction: column;
+	background-color: red;
+	text-align: center;
+	}
+}
+
+
+
+.footer_columns {
+flex: 0 1 33.33%
+}
+
+.culumn_adress p {
+	color: #848789;
+	font-family: Lato;
+	font-size: 14px;
+	font-style: italic;
+	letter-spacing: normal;
+	line-height: 17.87px;
+	/* text-align: left; */
+}
+.culumn_adress p:first-child {
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.culumn_social{
+	display: flex;
+	justify-content: center;
+}
+
+.culumn_autor{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+@media (max-width: 600px)
+{
+	.culumn_autor{justify-content: center;}
+}
+
+.culumn_social img{
+	margin-right: 15px;
+}
+
+.culumn_social img:last-child{
+	margin-right: 0px;
+}
+
+.culumn_autor p{
+display: inline;
+color: #848789;
+font-family: Lato;
+font-size: 14px;
+font-style: italic;
+letter-spacing: normal;
+line-height: 17.87px;
+
+margin-right: 9px;
+}
+
+
+
